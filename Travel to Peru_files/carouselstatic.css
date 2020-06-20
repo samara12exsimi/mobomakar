@@ -1,0 +1,30 @@
+/* Eric Meyer's reset */
+
+#homepage-carousel div,#homepage-carousel span,#homepage-carousel ol,#homepage-carousel ul,#homepage-carousel li,#homepage-carousel img,#homepage-carousel
+fieldset,#homepage-carousel form,#homepage-carousel label,#homepage-carousel legend,#homepage-carousel
+table,#homepage-carousel caption,#homepage-carousel tbody,#homepage-carousel tfoot,#homepage-carousel thead,#homepage-carousel tr,#homepage-carousel th,#homepage-carousel td  {margin:0; padding:0; border:0; outline:0; font-size:100%;}
+
+/*#homepage-carousel div, #homepage-carousel span,#homepage-carousel applet,#homepage-carousel object,#homepage-carousel h1,#homepage-carousel h2,#homepage-carousel h3,#homepage-carousel h4,#homepage-carousel h5,#homepage-carousel h6,#homepage-carousel p,#homepage-carousel blockquote,#homepage-carousel pre,#homepage-carousel a,#homepage-carousel abbr,#homepage-carousel em,#homepage-carousel font,#homepage-carousel img,#homepage-carousel small,#homepage-carousel strike,#homepage-carousel strong,#homepage-carousel sub,#homepage-carousel sup,#homepage-carousel tt,#homepage-carousel var,#homepage-carousel b,#homepage-carousel ul,#homepage-carousel li,#homepage-carousel center,#homepage-carousel dl,#homepage-carousel dt,#homepage-carousel dd,#homepage-carousel ol,#homepage-carousel ul#homepage-carousel, li,#homepage-carousel
+fieldset,#homepage-carousel form,#homepage-carousel label,#homepage-carousel legend,#homepage-carousel
+table,#homepage-carousel caption,#homepage-carousel tbody,#homepage-carousel tfoot,#homepage-carousel thead,#homepage-carousel tr,#homepage-carousel th,#homepage-carousel td  {margin:0; padding:0; border:0; outline:0; font-size:100%;}*/
+#homepage-carousel ol, #homepage-carousel ul {
+	list-style: none;
+	z-index: auto;
+}
+
+
+
+
+#homepage-carousel a {
+	text-decoration:none;
+	color:#0077cc;
+}
+#homepage-carousel a:hover, #homepage-carousel a:focus,#homepage-carousel a:active {
+	text-decoration:underline;
+	color:#0077cc;
+}
+/* Clear fix - http://www.webtoolkit.info/css-clearfix.html */
+.clearfix:after {content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0;}
+.clearfix {display: inline-block;}
+html[xmlns] .clearfix {display: block;}
+* html .clearfix {height: 1%;}

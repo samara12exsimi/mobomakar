@@ -1,0 +1,185 @@
+.h_divicrema1 {
+	background-color: #dbd5bb;
+	display: block;
+	height: 3px;
+	width: 100%;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+.carrouselContainer {
+	display: block;
+	float: left;
+	width: 660px;
+	vertical-align: top;
+	height: 364px;
+	border: 2px solid #999999;
+	background-color: #333333;
+}
+#homepage-carousel {
+	width:660px;
+	margin-right:0px;
+	height: 298px;
+	position:relative;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:75%;
+	color:#333;
+	line-height:1.4;
+	height:auto;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 0px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.carouselEntry {
+
+
+}
+.carouselEntry a {color: #fff!important; text-decoration: none;}
+.carouselEntry a:hover {text-decoration: none;}
+.carouselEntry .carouselBanner {
+	display: block;
+	color: white;
+	z-index: 10;
+	height: 65px;
+	width: 660px;
+	position: absolute;
+	top: 259px;
+	left:0;
+}
+.carouselEntry .carouselBanner .carouselBannerBgTransparent {
+	background: #333;
+	display:block;
+	width: 660px;
+	height: 75px;
+	filter:alpha(opacity=85);
+	-webkit-opacity:0.85;
+	opacity: 0.85
+}
+.carouselEntry .carouselBanner .carouselBannerBgSolid {
+	background: #333;
+	display:block;
+	width: 660px;
+	height: 30px;
+	position: absolute;
+	top: 45px;
+	filter:alpha(opacity=90);
+	-webkit-opacity:0.9;
+	opacity: 0.9
+}
+#title {
+	left:10px;
+	padding-right:7px;
+	white-space: nowrap;
+	padding-bottom: 30px;
+	padding-top: 0px;
+	position: absolute;
+	top: 0px;
+	margin-top: 0px;
+	height: 40px;
+	display: block;
+}
+.carouselEntry h2 {
+	display: block;
+	font-size: 30px;
+	font-weight: normal;
+	margin: 0px;
+	padding-top: 12px;
+}
+.carouselEntry img {
+	height: 364px;
+	width: 660px;
+}
+
+* html .carouselEntry h2 {
+}
+*:first-child+html .carouselEntry h2 {top:22px;}
+.carouselEntry .carouselText {
+	display: block;
+	width: 650px;
+	height: 30px;
+	position: absolute;
+	top: 30px;
+	left:10px;
+}
+.carouselEntry .carouselText p {
+	position:relative;
+	top: 22px;
+	display: block;
+	padding-left: 7px;
+	float: left;
+	margin: 0px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.carouselEntry .carouselText p a {
+	position:relative;
+	top: 0;
+	padding-right: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 7;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+.carouselEntry .carouselText p span.arrow {
+	position:relative;
+	top: 0;
+	display: block;
+	padding-top: 0px;
+	padding-bottom: 0px !important;
+	vertical-align: top;
+	background-image: url(../images/flechamarilla.png);
+	background-repeat: no-repeat;
+	background-position: left 5px;
+	width: 20px;
+	height: 20px;
+	float: left;
+	clear: left;
+	margin: 0px;
+}
+.carouselEntry .carouselText p.hover a {background: url(carousel-link-bg.png) top right no-repeat;}
+* html .carouselEntry .carouselText p.hover a {
+	text-decoration: underline;
+}
+ 
+
+#carousel-buttons {
+	position: absolute;
+	top: 334px;
+	z-index: 10;
+	cursor: pointer;
+	background-color: #000000;
+}
+#carousel-buttons li {float: left; text-align:center; line-height:2.5em;}
+#carousel-buttons li a {background-color:#000; color:#a9a9a9; height: 30px; width: 30px; font-weight:bold; display:block;}
+#carousel-buttons li a:hover {background-color:#a7adad; color:#fff; text-decoration:none;}
+#carousel-buttons li a:focus {text-decoration:none;}
+#carousel-buttons li a.current-slide {background-color:#fff; color:#000;}
+#carousel-buttons a.carousel-pause { background: url(sprite-buttons.gif) -130px -1128px no-repeat}/*pause button*/
+#carousel-buttons a.carousel-pause:hover { background: url(sprite-buttons.gif) -130px -1162px no-repeat}/*pause button hover*/
+#carousel-buttons a.carousel-resume {background: url(sprite-buttons.gif) -170px -1128px no-repeat;}/*play button*/
+#carousel-buttons a.carousel-resume:hover {background: url(sprite-buttons.gif) -170px -1162px no-repeat}/*play button hover*/
+#carousel-buttons a.carousel-pause.hidden {display: none}
+#carousel-buttons a.carousel-resume.hidden {display: none}
+
+.carouselRed    {background-color: #a92817!important}
+.carouselOrange {background-color: #bf5501!important}
+.carouselYellow {background-color: #b89c02!important}
+.carouselBurntOrange {background-color: #a0462f!important}
+.carouselPurple {background-color: #8d5489!important}
+.carouselPink   {background-color: #ff7fcd!important}
+.carouselBlue   {background-color: #0096ce!important}
+.carouselAqua   {background-color: #058a9d!important}
+.carouselTeal   {
+	background-color: #6C6C00!important
+}
+.carouselBrown  {background-color: #794d0f!important}
+.carouselGreen  {background-color: #347b1d!important}
+.carouselOlive  {background-color: #789d02!important}
+}
